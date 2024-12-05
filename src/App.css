@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.filters {
+  margin: 15px 0;
+}
+
+.filters button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+.filters button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: darkred;
+}
